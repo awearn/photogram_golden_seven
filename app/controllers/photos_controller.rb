@@ -40,6 +40,6 @@ class PhotosController < ApplicationController
     z.caption = @caption
     z.source = @url
     z.save
-    redirect_to("http://localhost:3000/photos")
+    redirect_to("http://localhost:3000/photos/")
   end
 end
